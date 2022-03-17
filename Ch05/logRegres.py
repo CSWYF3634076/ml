@@ -77,8 +77,6 @@ def stocGradAscent1(dataMatrix , classLabels , numIter = 150):
         return weights
 
 
-
-
 if __name__ == '__main__':
         dataArr , labelMat = loadDataSet()
         weights = stocGradAscent1(array(dataArr),labelMat,500)
