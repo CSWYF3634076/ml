@@ -76,6 +76,7 @@ def stocGradAscent1(dataMatrix , classLabels , numIter = 150):
             del(dataIndex[randIndex]) #使用完之后删除这条数据
         return weights
 
+
 if __name__ == '__main__':
         dataArr , labelMat = loadDataSet()
         weights = stocGradAscent1(array(dataArr),labelMat,500)
